@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/d8ebe6d82c.js" crossorigin="anonymous"></script>
+        <title>Responsive design</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="layout">
+        <div class="bar-time">
+            <div class="time"><p>9:45</p></div>
+            <div class="bar">
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa fa-wifi"></i>
+                <i class="fas fa-battery"></i>
+            </div>
+        </div>
+        
+        
+        <div class="heading">
+           <div class="left"><label for="categories" id="categories"><i class="fa-solid fa-grip"></i>&nbsp;&nbsp;All Categories</label></div>
+            <div class="search"><i class="fa fa-search"></i><input type="text" id="categories" placeholder="search a product or category"></div>
+            <div class="right"><p>favourites</p>
+            <p>Account</p>
+            <p>Cart</p></div>
+        </div>
+        <div class="back">
+           <h4><i class="fa fa-angle-left"></i>Back</h4> 
+        </div>
+        <div class="container">
+            <div class="column1">
+                <div class="form">
+                    <h2 class="invisible">Your information</h2>
+                    <h2 class="visible">Billing Address</h2><hr>
+                    <label for="full-name" name="full-name">Full Name<span style="color:red">*</span></label><br>
+                    <input type="text" name="full-name" id="full-name" placeholder="your full name" required><br>
+                    <label for="email" name="email" id="email">Email address</label><br>
+                    <input type="email" name="email" id="email" placeholder="you@you.com">
+                </div>
+                <div class="payment-method">
+                    <h2>Choose your payment method</h2>
+                    </div>
+                    <div>
+                        
+                    <ul class="payment">
+                        <li><i class="fa fa-credit-card" style="padding-right:20px"></i>Debit Card<i class="fa fa-angle-right" style="float:right;opacity:0.3"></i></li>
+                        <li><img src="squad.png" alt="squad">Squad<i class="fa fa-angle-right" style="float:right;opacity:0.3" ></i></li>
+                        <li><img src="paypal.png" alt="paypal" style="width:8%;padding-right:20px">PayPal<i class="fa fa-angle-right" style="float:right;opacity:0.3"></i></li>
+                    </ul>
+                </div>
+                <div class="continue visible" >
+                    <a href="/next.html" style="color:brown"><h2>Next</h2></a>
+                </div>
+                <div class="method-container">
+                    <div class="cards">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="order"><h2>Order Summary</h2><p><i class="fa fa-ellipsis"></i></p></div>
+                <div class="image">
+                 <image>
+                    <img src="snip.png" height="85px" alt="the lady">
+                 </image>
+                    <div class="description">
+                    
+                     <ul class="invisible">
+                         <li>Women's Turtle Neck</li>
+                        <li>&dollar;500</li>
+                         <li>Size:&nbsp;8</li>
+                         <li>Qty:&nbsp;1</li>
+                         <li>Color:&nbsp;&#9632;</li>
+                     </ul>
+                     <ul class="visible">
+                        <li>Women's Turtle Neck</li>
+                       <li>&dollar;500</li>
+                        <li>S&nbsp;<span style="color:red;font-size:1.2rem">&#9632;</span></li>
+                        <li></li>
+                        <li><i class="fa fa-plus"></i>&nbsp;1&nbsp;<i class="fa fa-minus"></i></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="image">
+                    <image>
+                       <img src="snip.png" height="85px" alt="the lady">
+                    </image>
+                       <div class="description">
+                       
+                        <ul class="invisible">
+                            <li>Women's Turtle Neck</li>
+                           <li>&dollar;500</li>
+                            <li>Size:&nbsp;8</li>
+                            <li>Qty:&nbsp;1</li>
+                            <li>Color:&nbsp;&#9632;</li>
+                        </ul>
+                        <ul class="visible">
+                            <li>Women's Turtle Neck</li>
+                           <li>&dollar;500</li>
+                            <li>S&nbsp;<span style="color:red;font-size:1.2rem">&#9632;</span></li>
+                            <li></li>
+                            <li><i class="fa fa-plus"></i>&nbsp;1&nbsp;<i class="fa fa-minus"></i></li>
+                        </ul>
+                       </div>
+                   </div>
+                <div class="image two">
+                    <image>
+                         <img src="snip.png" height="85px" alt="the lady">
+                    </image>
+                    <div class="description">
+                        
+                        <ul class="invisible">
+                            <li>Women's Turtle Neck</li>
+                           <li>&dollar;500</li>
+                            <li>Size:&nbsp;8</li>
+                            <li>Qty:&nbsp;1</li>
+                            <li>Color:&nbsp;&#9632;</li>
+                        </ul>
+                        <ul class="visible">
+                            <li>Women's Turtle Neck</li>
+                           <li>&dollar;500</li>
+                            <li>S&nbsp;<span style="color:red;font-size:1.2rem">&#9632;</span></li>
+                            <li></li>
+                            <li><i class="fa fa-plus"></i>&nbsp;1&nbsp;<i class="fa fa-minus"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="sub">
+                        <h2>Sub-total</h2>
+                        <h2>&dollar;1,000</h2>
+                    </div>
+                    <div class="sub"><h2>Total</h2>
+                        <h2>&dollar;1,500</h2>
+                    </div>  
+                </div>
+                <div class="continue invisible" style="background-color:rgba(134, 132, 132, 0.6);">
+                    <a href="/next.html"><h2>Checkout</h2></a>
+                </div>
+                <div class="continue visible" >
+                    <a href="/next.html" style="color:brown;"><h2>Continue</h2></a>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
