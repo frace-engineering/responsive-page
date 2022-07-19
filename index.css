@@ -57,7 +57,7 @@ body{
 .column1 div{
     background-color: rgba(211, 208, 208, 0.1);
     padding-right:2px;
-    padding-bottom:10px;
+    padding-bottom:0.31em;
 }
 .column1{
     flex:1;
@@ -80,20 +80,21 @@ body{
 }
 .column1 li{
     font-size:0.76em;
+    width:90%;
 }
-.description ul li:nth-child(1){
-    font-size:0.7rem;
+.visible li:nth-child(1){
+    font-size:0.6rem;
     color:brown;
     font-weight:800;
     padding-top:0.4em;
 }
 .visible li:nth-child(2){
-    font-size:1em;
+    font-size:0.8em;
     color:black;
     font-weight:900;
 }
-.description ul li:nth-child(3){
-    padding-top:10px;
+.visible li:nth-child(3){
+    padding-top:0.1em;
 }
 
 .order{
@@ -114,12 +115,14 @@ body{
 }
 img{
     padding-top:15px;
+    height:30%;
 }
 .form{
     display: flex;
     flex-direction: column;
     padding-left:10px;
     padding-bottom:10px;
+    width:90%;
     justify-content: space-between;
 }
 .form input{
@@ -146,6 +149,7 @@ img{
 .sub{
     display:flex;
     justify-content: space-between;
+    width:90%;
 }
 a{
     text-align:center;
@@ -181,24 +185,34 @@ a{
         margin:0 auto;
         width:40%;
     }
+    .column1 li{
+        font-size:1.5em;
+        width:90%;
+    }
     .column2{
         margin:0 auto;
         width:40%;
         padding-left:2em;
     }
+    img{
+        height:100%;
+    }
     .invisible li{
-        font-size:1.5em;
+        font-size:1.2em;
     }
     .invisible li:nth-child(1){
-        font-size:0.9em;
+        font-size:1.5em;
         color:brown;
         font-weight:800;
         padding-top:0.4em
     }
     .invisible li:nth-child(2){
-        font-size:1rem;
+        font-size:0.8rem;
         color:black;
         font-weight:800;
+    }
+    .invisible li:nth-child(3){
+        padding-top: 0.3em;
     }
     .two{
         display:none;
@@ -244,7 +258,7 @@ a{
         padding-top:0.7em
     }
     .bar-time{
-        font-size:2em;
+        font-size:1.3em;
     }
     .visible{
         display:none;
