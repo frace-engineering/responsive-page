@@ -67,17 +67,28 @@ body{
 }
 .column2{
     flex:1;
-    width:40%;
+    width:45%;
     margin:0 auto;
     background-color:rgba(211, 208, 208, 0.1);
 }
+.column1 h2{
+    font-size:0.9em
+} 
+.column2 h2{
+    font-size:0.9em;
+    
+}
+.column1 li{
+    font-size:0.76em;
+}
 .description ul li:nth-child(1){
-    font-size:0.8rem;
+    font-size:0.7rem;
     color:brown;
     font-weight:800;
+    padding-top:0.4em;
 }
 .visible li:nth-child(2){
-    font-size:1.3em;
+    font-size:1em;
     color:black;
     font-weight:900;
 }
@@ -92,7 +103,7 @@ body{
 }
 .order i{
     padding-top: 0.21em;
-    font-size:2em;
+    font-size:1.2em;
 }
 .image{
     display:flex;
@@ -127,7 +138,7 @@ img{
 }
 .payment-method{
     padding:10px 10px;
-    font-size:0.5rem;
+    font-size:0.8em;
 }
 .total{
     line-height: 10px;
